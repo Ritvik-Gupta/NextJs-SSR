@@ -1,8 +1,8 @@
-export default ({ user }) => {
+export default ({ authUser }) => {
 	return (
 		<>
 			<h1> Private Route Information </h1>
-			<h2>{user} is authorized to visit this page</h2>
+			<h2>{authUser} is authorized to visit this page</h2>
 		</>
 	)
 }
